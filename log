@@ -17,3 +17,13 @@ Wed 13 Mar 2024 08:37:14 PM UTC:
  tests:  0|7
 total_score: 0/70
 a835c9c
+Wed 13 Mar 2024 08:39:47 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘findMax’:
+exercises.c:18:27: error: subscripted value is neither array nor pointer nor vector
+   18 |       if (arr[i] > numeroM[i])
+      |                           ^
+Compilation failed
+91ed159
