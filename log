@@ -98,3 +98,13 @@ exercises.c:116:7: error: variable ‘descendente’ set but not used [-Werror=u
 cc1: all warnings being treated as errors
 Compilation failed
 18fca92
+Sat 16 Mar 2024 06:40:05 PM UTC: 
+ exercises.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:139:3: error: ‘else’ without a previous ‘if’
+  139 |   else
+      |   ^~~~
+Compilation failed
+635d8e8
