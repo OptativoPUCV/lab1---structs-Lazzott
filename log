@@ -87,3 +87,14 @@ Wed 13 Mar 2024 09:22:26 PM UTC:
  tests:  0|3
 total_score: 40/70
 132bd04
+Sat 16 Mar 2024 06:38:30 PM UTC: 
+ exercises.c | 21 +++++++++++++++++++--
+ 1 file changed, 19 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:116:7: error: variable ‘descendente’ set but not used [-Werror=unused-but-set-variable]
+  116 |   int descendente = 1;
+      |       ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+18fca92
